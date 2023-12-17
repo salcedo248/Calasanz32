@@ -1,0 +1,139 @@
+<html>
+    <head>
+	<style>
+	.container {
+        display:grid;
+		border:2px solid black;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+	.header {
+	    background:purple;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+		font-family: "Lucida console"
+	    }
+	.nav {
+	    background:pink;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+		grid-column:span 1;
+		font-family: "Lucida console"
+	    }
+	.main {
+	    background:black;
+	    font-size:1.5em;
+		text-align:center;
+		color: white;;
+		border-align:center;
+		padding:10px;
+		grid-column:span 2;
+		font-family: "Lucida console"
+		}
+	.footer {
+	    background:yellow;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+			font-family: "Lucida console"
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			grid-template-columns: 1fr 3fr;
+		  grid-template-rows:1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+		  font-family: "Lucida console"
+ 		    }
+		.header {
+	    background:purple;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+		.nav {
+	    background:pink;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 1;
+		font-family: "Lucida console"
+	    }
+	.main {
+	    background:black;
+	    font-size:2em;
+		text-align:center;
+		color:white;
+		grid-column:span 2;
+		font-family: "Lucida console"
+		}
+		.footer {
+	    background:yellow;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+			font-family: "Lucida console"
+		}
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			grid-template-rows:1fr 1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+		  font-family: "Lucida console"
+ 		    }
+		.header {
+	   background:purple;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		font-family: "Lucida console"
+	    }
+	.nav {
+	    background:pink;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		font-family: "Lucida console"
+	    }
+	.main {
+	    background:black;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		font-family: "Lucida console"
+		}
+	.footer {
+	    background:yellow;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;        
+font-family: "Lucida console"		
+	
+		}
+	</style>
+	    <title>TALENTS</title>
+	</head>
+<body>
+
+<div class=container>	
+   
+    <div class=header>MY TALENTS</div>
+	<div class=nav><a href=index.html>MAIN</a>
+	<a href=ABOUT.html>ABOUT ME</a><a href=SKILLS.html>MY SKILLS</a></div>
+	<div class=main>I have a talent for rhythm based video games, and ARPG'S<br>and sports as well, particularly basketball</div>
+	<div class=footer><a href=README.html>Created by Liam Jacob Salcedo</a></div>
+	
+	</div>
+</body>
+</html>	
